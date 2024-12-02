@@ -1,0 +1,539 @@
+
+.hero {
+    background-image: url("../../Images/bgBuildWithHarvoxx.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 102vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    line-height: 1.5;
+    position: relative;
+    top: 0;
+
+    z-index: 2;
+}
+
+.hero .hero-content {
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+}
+
+.hero .hero-content h2 {
+    font-size: 75px;
+}
+
+.hero .hero-content p {
+    color: white;
+    font-size: 19px;
+    width: 58%;
+}
+
+.hero .hero-content .btn-group {
+    display: flex;
+    gap: 3%;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.hero .hero-content .btn-group .learn {
+    display: block;
+    background-color: lime;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.hero .hero-content .btn-group .video {
+    display: block;
+    background-color: transparent;
+    padding: 10px 15px;
+    color: white;
+    border: 2px solid lime;
+    border-radius: 20px;
+}
+
+.about {
+    padding: 2% 5%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+}
+
+.about .about-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about .about-row .col {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.col-meet {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.about .about-row .about-col {
+    width: 46%;
+    margin: 4% 0;
+    height: 65vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.about .about-row .about-col h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.about .about-row .about-col img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.projects {
+    padding: 5%;
+}
+
+.projects .heading {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.projects .heading h3 {
+    font-size: 30px;
+}
+
+.projects .project-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projects .project-row .card {
+    background-color: transparent;
+    padding-bottom: 20px;
+    width: 30%;
+    position: relative;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.projects .project-row .card .img-container {
+    width: 100%;
+}
+
+.projects .project-row .card .img-container img {
+    width: 100%;
+    border-radius: 20px;
+    height: 40vh;
+}
+
+.projects .project-row .card p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    border-radius: 0 20px 0 20px;
+}
+
+.projects .project-row .card .tiles {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.projects .project-row .card .tiles h3 {
+    margin: 20px 0;
+}
+
+.projects .project-row .card .tiles a {
+    display: block;
+    width: 50%;
+    margin: auto;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.projects .more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 50px 0 0 0;
+}
+
+.projects .more a {
+    position: relative;
+    color: black;
+}
+
+.projects .more a .arrow {
+    position: absolute;
+    top: 2px;
+    right: -30px;
+    color: green;
+}
+
+.Our-town {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../Images/wowBuildWithHarvoxx.jpeg");
+    background-position: center;
+    
+    height: 50vh;
+    background-size: cover;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Our-town h2 {
+    width: 45%;
+    margin: auto;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.news {
+    padding: 0 5%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.news .news-head {
+    padding: 10px 0;
+    line-height: 1.5;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news .news-head h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.news .box {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    background-color: transparent;
+    padding: 10px ;
+    box-shadow:  0 0 0 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height: 70vh;
+    position: relative;
+}
+
+.news .box .img-container{
+    width: 100%;
+    height: 30vh;
+}
+
+.news .box .img-container img {
+    width: 100%;
+    height: 30vh;
+}
+
+.news .box .timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.news .box .timeline a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.news .box .update {
+    margin: 10px 0;
+}
+
+.news .box .update h3 {
+    padding-bottom: 20px;
+}
+
+.news .box a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+
+.more:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+
+@media screen  and (max-width: 480px) {
+
+    .hero .hero-content {
+        width: 90%;
+        margin: auto;
+        position: unset;
+        margin-bottom: 50px;
+    }
+
+    .hero .hero-content h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero .hero-content p {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .hero-content .btn-group {
+        display: flex;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-row {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .about .about-row .col {
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .about .about-row .about-col {
+        width: 100%;
+        height: 65vh;
+        margin: unset;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+
+
+
+    .projects .project-row .card {
+        width: 100%;
+    }
+
+    .Our-town h2 {
+        width: 80%;
+        font-size: 40px;
+    }
+
+    .news .box {
+        width: 100%;
+        margin-bottom: 30px;
+        height: 77vh;
+    }
+
+}
+
+
+
+@media screen  and (max-width: 768px) and (min-width: 481px) {
+
+    .hero {
+        height: 120vh;
+    }
+
+    .hero .hero-content {
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        left: 5%;
+        top: 35%;
+    }
+
+    .hero .hero-content h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero .hero-content p {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .hero-content .btn-group {
+        display: flex;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about .about-row {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .about .about-row .col {
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        margin-bottom: 40px;
+    }
+
+    .about .about-row .about-col {
+        width: 100%;
+        height: 65vh;
+        margin: unset;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+
+    .projects .project-row .card {
+        width: 100%;
+    }
+
+    .Our-town h2 {
+        width: 70%;
+        font-size: 40px;
+    }
+
+    .news .box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .news .box .img-container{
+        width: 100%;
+        height: 40vh;
+    }
+
+}
+
+
+
+@media screen  and (max-width: 834px) and (min-width: 769px) {
+    .hero {
+        height: 120vh;
+    }
+
+    .hero .hero-content {
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        left: 5%;
+        top: 35%;
+    }
+
+    .hero .hero-content h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero .hero-content p {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .hero-content .btn-group {
+        gap: 3%;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about .about-row {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .about .about-row .col {
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        margin-bottom: 40px;
+    }
+
+    .about .about-row .about-col {
+        width: 100%;
+        height: 65vh;
+        margin: unset;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+
+    .projects .project-row .card {
+        width: 48%;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    .Our-town h2 {
+        width: 60%;
+        font-size: 50px;
+    }
+
+    .news .box {
+        width: 48%;
+        margin-bottom: 30px;
+        height: 85vh;
+    }
+
+    .news .box .img-container{
+        width: 100%;
+        height: 40vh;
+    }
+}

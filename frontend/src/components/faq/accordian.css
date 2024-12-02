@@ -1,0 +1,101 @@
+.acq-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.acq-wrapper .acq-data {
+    width: 100%;
+    margin: 10px;
+}
+
+.acq-wrapper .select-data {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.acq-wrapper .acq-question {
+    background-color: white;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4); */
+    padding-bottom: 10px;
+}
+
+.acq-wrapper .selected {
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.acq-wrapper .acq-data .acq-answer {
+    padding: 10px 13px 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+}
+
+.acq-wrapper .acq-form {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.acq-wrapper .acq-form .custom-faq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.acq-wrapper .acq-form .custom-faq input {
+    padding-left: 13px;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    padding-left: 13px;
+    font-size: 18px;
+    width: 93%;
+    background-color: white;
+}
+
+.acq-wrapper .acq-form .custom-faq button {
+    background-color: green;
+    padding: 13px 0;
+    border: none;
+    color: white;
+    width: 7%;
+}
+
+@media screen  and (max-width: 480px) {
+    .acq-wrapper .acq-form .custom-faq input {
+        width: 80%;
+    }
+
+    .acq-wrapper .acq-form .custom-faq button {
+        width: 20%;
+    }
+}
+
+@media screen  and (max-width: 768px) and (min-width: 481px) {
+    .acq-wrapper .acq-form .custom-faq input {
+        width: 85%;
+    }
+
+    .acq-wrapper .acq-form .custom-faq button {
+        width: 15%;
+    }
+}
+
+@media screen  and (max-width: 834px) and (min-width: 769px) {
+    .acq-wrapper .acq-form .custom-faq input {
+        width: 90%;
+    }
+
+    .acq-wrapper .acq-form .custom-faq button {
+        width: 10%;
+    }
+}

@@ -1,0 +1,277 @@
+.project-hero {
+    position: relative;
+    background-image: url("../../Images/houseBuild.jpeg");
+    height: 102vh;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+.project-hero h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.view-project {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0 5% 4%;
+    line-height: 1.5;
+    justify-content: space-between;
+}
+
+.view-project h2 {
+    width: 40%;
+    font-size: 55px;
+}
+
+.view-project p {
+    width: 50%;
+    padding: 0 4%;
+    font-size: 22px;
+}
+
+.gallery {
+    padding: 0 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+.first-img-container {
+    width: 49.5%;
+    height: 80vh;
+    position: relative;
+}
+
+.first-img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-img-container p {
+    position: absolute;
+    bottom: 0;
+    padding: 5%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-col {
+    display: flex;
+    flex-direction: column;
+    width: 49.5%;
+    gap: 2vh;
+}
+
+.img-col .img-container {
+    width: 100%;
+    height: 39vh;
+    position: relative;
+}
+
+.img-col .img-container p {
+    position: absolute;
+    bottom: 0;
+    padding: 5%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.img-col .img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-banner {
+    height: 50vh;
+    width: 100%;
+    margin: 4% 0 3%;
+}
+
+.project-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-site {
+    width: 50%;
+    margin: 0 auto 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.project-site h2 {
+    padding-bottom: 30px;;
+}
+
+.project-site .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project-site .box .img-box {
+    width: 49%;
+}
+
+.project-site .box .img-box img {
+    width: 100%;
+}
+
+
+@media screen  and (max-width: 480px) {
+    .project-hero h2 {
+        font-size: 40px;
+    }
+
+    .view-project {
+        flex-wrap: wrap;
+    }
+    
+    .view-project h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .view-project p {
+        width: 100%;
+        padding: unset;
+        font-size: unset;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        height: unset;
+    }
+
+    .first-img-container {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .img-col {
+        flex-direction: row;
+        width: 100%;
+        gap: unset;
+        flex-wrap: wrap;
+    }
+
+    .img-col .img-container {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen  and (max-width: 768px) and (min-width: 481px) {
+    .project-hero h2 {
+        font-size: 50px;
+    }
+
+    .view-project {
+        flex-wrap: wrap;
+    }
+    
+    .view-project h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .view-project p {
+        width: 100%;
+        padding: unset;
+        font-size: unset;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        height: unset;
+    }
+
+    .first-img-container {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .img-col {
+        flex-direction: row;
+        width: 100%;
+        gap: unset;
+        flex-wrap: wrap;
+    }
+
+    .img-col .img-container {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen  and (max-width: 834px) and (min-width: 769px) {
+    .view-project {
+        flex-wrap: wrap;
+    }
+    
+    .view-project h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .view-project p {
+        width: 100%;
+        padding: unset;
+        font-size: unset;
+    }
+
+    /* .gallery {
+        flex-wrap: wrap;
+        height: unset;
+    }
+
+    .first-img-container {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .img-col {
+        flex-direction: row;
+        width: 100%;
+        gap: unset;
+        flex-wrap: wrap;
+    }
+
+    .img-col .img-container {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        margin-bottom: 20px;
+    } */
+}

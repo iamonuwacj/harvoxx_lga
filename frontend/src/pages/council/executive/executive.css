@@ -1,0 +1,203 @@
+.exe-hero {
+    position: relative;
+    top: 0;
+    height: 90vh;
+    width: 100%;
+
+    background-image: url("../../../Images/houseBuild.jpeg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.exe-content {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.exe-content .exeImg {
+    width: 48%;
+    height: 70vh;
+}
+
+.exe-content .exeImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.exe-content .exe-title {
+    width: 48%;
+    line-height: 1.5;
+}
+
+.exe-content .exe-title h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.exe-content .exe-title  p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.members {
+    padding: 5%;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.members h2 {
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+
+.members .council-box {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.members .council-box .box {
+    width: 45%;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.members .council-box .box .img-box {
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.members .council-box .box .img-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.members .council-box .box .box-content {
+    text-align: center;
+}
+
+.members .council-box .box .box-content h3 {
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.members .council-box .box .box-content p {
+    font-size: 19px;
+    color: gray;
+}
+
+
+
+@media screen  and (max-width: 480px) {
+    .exe-content {
+        flex-wrap: wrap-reverse;
+        height: unset;
+    }
+
+    .exe-content .exeImg {
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .exe-content .exe-title {
+        width: 100%;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+    .members .council-box {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .members .council-box .box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media screen  and (max-width: 768px) and (min-width: 481px) {
+    .exe-content {
+        flex-wrap: wrap-reverse;
+        height: unset;
+    }
+
+    .exe-content .exeImg {
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .exe-content .exe-title {
+        width: 100%;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+    .members .council-box {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .members .council-box .box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .members .council-box .box .img-box {
+        height: 500px;
+    }
+}
+
+
+
+@media screen  and (max-width: 834px) and (min-width: 769px) {
+    .exe-content {
+        flex-wrap: wrap-reverse;
+        height: unset;
+    }
+
+    .exe-content .exeImg {
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .exe-content .exe-title {
+        width: 100%;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+    .members .council-box {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .members .council-box .box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .members .council-box .box .img-box {
+        height: 500px;
+    }
+}
+
+/* background: #4CAF50;    green*/
+/* background: #EBE8E8;    gray*/
+

@@ -1,0 +1,184 @@
+.contact-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+    top: 0;
+
+    background-image: url("../../Images/houseBuild.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-hero h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    background-color: white;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+
+.contact-content .contact-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.contact-content .contact-row .touch {
+    display: flex;
+    width: 39%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content .contact-row .touch .contact-Img {
+    /* height: 25vh; */
+    width: 50%;
+    margin: auto;
+}
+
+.contact-content .contact-row .touch .contact-Img img{
+    width: 100%;
+}
+
+
+.contact-content .contact-row .touch .contact-header h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.contact-content .contact-row .touch .contact-header p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.contact-content .contact-row .contact-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    width: 56%;
+}
+
+.contact-content .contact-row .contact-form div {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-content .contact-row .contact-form div label {
+    font-size: 20px;
+}
+
+.contact-content .contact-row .contact-form div input {
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+}
+
+.contact-content .contact-row .contact-form div textarea {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contact-content .contact-row .contact-form button {
+    display: block;
+    background-color: green;
+    color: white;
+    align-self: flex-start;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid green;
+    margin-top: 10px;
+    width: 30%;
+    font-size: 18px;
+}
+
+
+
+@media screen  and (max-width: 480px) {
+    .contact-content .contact-row {
+        flex-direction: column;
+    }
+
+    .contact-content .contact-row .touch {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-content .contact-row .contact-form {
+        width: 100%;
+    }
+
+    .contact-content .contact-row .contact-form button {
+        width: 50%;
+        font-size: 16px;
+        padding: unset;
+        padding: 15px 0;
+    }
+}
+
+
+
+@media screen  and (max-width: 768px) and (min-width: 481px) {
+    .contact-content .contact-row {
+        flex-direction: column;
+    }
+
+    .contact-content .contact-row .touch {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-content .contact-row .contact-form {
+        width: 100%;
+    }
+
+    .contact-content .contact-row .contact-form button {
+        width: 34%;
+        font-size: 17px;
+        padding: unset;
+        padding: 15px 0;
+    }
+}
+
+
+
+@media screen  and (max-width: 834px) and (min-width: 769px) {
+    .contact-content .contact-row {
+        flex-direction: column;
+    }
+
+    .contact-content .contact-row .touch {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-content .contact-row .contact-form {
+        width: 100%;
+    }
+
+    .contact-content .contact-row .contact-form button {
+        width: 25%;
+        font-size: 18px;
+        padding: unset;
+        padding: 15px 0;
+    }
+}
