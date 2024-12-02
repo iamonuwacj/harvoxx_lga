@@ -45,7 +45,7 @@ const Header = () => {
                 <li><NavLink to={"/"}>Home</NavLink></li>
                 <li><NavLink to={"/about"}>About Us</NavLink></li>
                 <li><NavLink to={"/projects"} >Projects</NavLink></li>
-                <li onClick={() => setModalList(!modalList)} style={{color: "white", fontSize: "18px", fontWeight: "bold"}}> Council <span>+</span>
+                <li onClick={() => setModalList(!modalList)} style={{color: "white", fontSize: "18px", fontWeight: "bold"}}> Council <IoIosArrowDown size={20} color='wh`ite'/>
                     <ul className={modalList ? "nav-ex" : "modal-off"}>
                         <li><NavLink to={"/executive"}>Executive</NavLink></li>
                         <li><NavLink to={"/legislature"}>Legislature</NavLink></li>
