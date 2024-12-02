@@ -9,6 +9,7 @@ const Header = () => {
 
     const [navState, setNavState] = useState(false)
     const [dropDown, setDropDown] = useState(false)
+    const [modalList, setModalList] = useState(false)
 
     
 
@@ -44,14 +45,11 @@ const Header = () => {
                 <li><NavLink to={"/"}>Home</NavLink></li>
                 <li><NavLink to={"/about"}>About Us</NavLink></li>
                 <li><NavLink to={"/projects"} >Projects</NavLink></li>
-                <li>
-                    <div>
-                        <p></p>
-                        <ul>
-                            <NavLink to={"/legislature"}>Council</NavLink>
-                            <NavLink to={"/executive"}>Council</NavLink>
-                        </ul>
-                    </div>
+                <li onClick={() => setModalList(!modalList)} style={{color: "white", fontSize: "18px", fontWeight: "bold"}}> Council <span>+</span>
+                    <ul className={modalList ? "nav-ex" : "modal-off"}>
+                        <li><NavLink to={"/executive"}>Executive</NavLink></li>
+                        <li><NavLink to={"/legislature"}>Legislature</NavLink></li>
+                    </ul>
                 </li>
                 <li><NavLink to={"/news"}>News</NavLink></li>
                 <li><NavLink to={"/contact"}>Contact us</NavLink></li>

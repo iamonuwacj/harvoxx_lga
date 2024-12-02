@@ -14,6 +14,20 @@
 }
 
 
+.nav-ex {
+    position: absolute;
+    right: 15%;
+    list-style: none;
+    display: block;
+    top: 55%;
+}
+
+
+.modal-off {
+    display: none;
+}
+
+
 
 .header-container .logo-container {
     width: 10%;
@@ -125,7 +139,7 @@
         margin: auto;
         list-style: none;
         left: 0;
-        background-color: green;
+        background-color: #344466;
         padding-top: 20px;
         padding-bottom: 40px;
     }
@@ -133,6 +147,11 @@
     .header-container .modal-menu li {
         padding: 25px;
         text-align: center;
+    }
+
+    .header-container .modal-menu li .nav-ex li {
+        padding: unset;
+        margin-bottom: 20px;
     }
 }
 
