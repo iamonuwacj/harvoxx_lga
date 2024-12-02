@@ -308,8 +308,9 @@
     .hero .hero-content {
         width: 90%;
         margin: auto;
-        position: unset;
+        position: absolute;
         margin-bottom: 50px;
+        top: 30%;
     }
 
     .hero .hero-content h2 {
